@@ -14,7 +14,7 @@ For this assignment, I created an intent classifier for a CPCC help bot. The cla
 
 My normalize function converts the text to lowercase, removes punctuation, and removes common stop words.
 
-I did not include "not" or "no" in my stop word list because these words can change the meaning of a message. For example, "there is paper" and "there is no paper" mean different things. Removing "no" could cause the classifier to misunderstand what the user is asking.
+I kept "not" and "no" out of my stop words because they can completely change what someone means. For example, "there is paper" and "there is no paper" are saying opposite things, so removing "no" could make the bot understand the message incorrectly.
 
 ## Testing and Threshold
 
